@@ -1,11 +1,10 @@
 import React from 'react';
+import Login from './components/Auth/Login';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
+    <div className='App'>
+      <Login />
     </div>
   );
 }
